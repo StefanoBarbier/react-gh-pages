@@ -1,0 +1,1 @@
+//possibly use this to create better album for flickr images

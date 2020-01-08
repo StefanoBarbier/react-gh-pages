@@ -3,19 +3,40 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.8.0",
+    "@material-ui/icons": "^4.5.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "jquery": "^3.4.1",
+    "lg-autoplay": "^1.0.4",
+    "lg-fullscreen": "^1.1.0",
+    "lg-hash": "^1.0.4",
+    "lg-pager": "^1.0.2",
+    "lg-share": "^1.1.0",
+    "lg-thumbnail": "^1.1.0",
+    "lg-video": "^1.2.2",
+    "lg-zoom": "^1.1.0",
+    "lightgallery": "^1.6.12",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
+    "react-materialize": "^3.5.7",
+    "react-mdl": "^1.11.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "simple-react-lightbox": "^2.0.5",
+    "gh-pages": "^2.1.1",
+    "homepage": "http://StefanoBarbier.github.io/react-gh-pages"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
+  "homepage": "http://StefanoBarbier.github.io/react-gh-pages",
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -30,5 +51,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
