@@ -7,7 +7,7 @@ class Landing extends Component {
 		return(
 			<div style = {{width: '50%', margin: 'auto'}}>
 						<div className = "banner-txt">
-							<h1 >Full Stack Web Developer</h1> 
+							<h1 >Aspiring Web Developer</h1> 
 							<p> HTML/CSS | Javascript | React | PhP | MySQL | Python </p>
 							<div className = "social-links">
 
